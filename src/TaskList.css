@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.activeTask, 
+.inactiveTask{
+    margin-top: 20px;
+}
+
+h3{
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.border{
+    height: 2px;
+    width: 75%;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 1px 1px 7px white;
+}
+
+.activeListItem{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.activeListItem span {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.statusButton {
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #12c2e9;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+.deleteButton{
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid crimson;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.statusButton:hover{
+    background-color: #12c2e9;
+}
+.deleteButton:hover{
+    background-color: crimson;
+}
+
+.inactiveListItem{
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.inactiveListItem span {
+    font-size: 17px;
+    font-weight: normal;
+}
